@@ -1,0 +1,94 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	 background-image: url("bc2.jpg");
+}
+header{
+	height: 75px;
+	background: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	border-bottom: 1px solid white;
+}
+.logo {
+	font-size: 50px;
+	margin-left: 50px;
+	padding:13px;
+	font-family: courier;
+}
+
+.logo a {
+	color: #fff;
+	text-decoration: none;
+}
+.logo a:hover{
+	background: whitesmoke;
+	color: black;
+	border-radius: 5px;
+	border-width: auto;
+}
+.nav_bar {
+	font-family: courier;
+	font-size: 25px ;
+	float: right;
+	margin-right: 65px;
+	margin-top: 10px;
+	list-style: none;
+}
+.nav_bar li{
+	display: inline-block;
+}
+.nav_bar li a{
+	padding: 10px;
+	list-decoration: none;
+	font-size: 25px;
+}
+.nav_bar li:hover{
+	color:#fff;
+	border-radius: 5px;
+	border-width: auto;
+}
+.konten{
+	font-family: courier;
+	color: white;
+}
+.heading{
+	color: white;
+	padding-left: 50px;
+	padding-top: 50px;
+	font-family: courier;
+	font-size: 50px;
+}
+.cek{
+	font-size: 90px;
+	color: ghostwhite;
+}
+.paragraf{
+	font-family: courier;
+	font-size: 50px;
+	color: white;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.deskp{
+	color: grey;
+	margin-left: 20px;
+}
+.deskp a{
+	text-decoration: none;
+}
+table{
+	margin: 20px 150px 20px;
+}
+.picm{
+	height: 200px;
+	width: 150px;
+	border-width: 30px;
+}
+.data ul li{
+	margin-left: 20px;
+	list-style: none;
+}

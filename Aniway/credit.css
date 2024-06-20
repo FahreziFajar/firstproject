@@ -1,0 +1,109 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	 background-image: url("bc2.jpg");
+}
+header{
+	height: 75px;
+	background: rgba(0, 0, 0, 0.7);
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	border-bottom: 1px solid white;
+}
+.logo {
+	font-size: 50px;
+	margin-left: 50px;
+	padding:13px;
+	font-family: courier;
+}
+
+.logo a {
+	color: #fff;
+	text-decoration: none;
+}
+.logo a:hover{
+	background:whitesmoke;
+	color: black;
+	border-radius: 5px;
+	border-width: auto;
+}
+.nav_bar {
+	font-family: courier;
+	font-size: 25px ;
+	float: right;
+	margin-right: 65px;
+	margin-top: 10px;
+	list-style: none;
+}
+.nav_bar li{
+	display: inline-block;
+}
+.nav_bar li a{
+	padding: 10px;
+	list-decoration: none;
+	font-size: 25px;
+}
+.nav_bar li:hover{
+	background: black;
+	color:#fff;
+	border-radius: 5px;
+	border-width: auto;
+}
+table{
+	margin: 20px 120px 20px;
+}
+.pic{
+	height: 200px;
+	width: 200px;
+	border-radius: 100%;
+	float: right;
+	margin: 0 60px 0 -60px;
+}
+.fjr{
+	
+	font-family: courier;
+	list-style: none;
+	text-align: left;
+	padding: 15px;
+}
+.name{
+	font-size: 40px;
+	color: white;
+	padding: 0;
+}
+.role{
+	font-size: 20px;
+	color: grey;
+	margin-left: 20px;
+}
+.descr{
+	font-size: 25px;
+	color: white;
+}
+.nail{
+	font-family: courier;
+	list-style: none;
+	text-align: right;
+	margin: 80px 20px -80px -20px;
+}
+.pic1{
+	height: 200px;
+	width: 200px;
+	margin: 50px -50px 50px 50px;
+	border-radius: 100%;
+	float: left;
+}
+.lorem{
+	font-size: 80px;
+	color: ghostwhite;
+}
+footer{
+	background-color: black;
+	color: whitesmoke;
+	height: 60px;
+	font-size: 20px;
+	font-family: Callibri;
+}
